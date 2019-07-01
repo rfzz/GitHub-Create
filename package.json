@@ -1,0 +1,44 @@
+{
+  "name": "CreateDemo",
+  "version": "1.0.0",
+  "description": "myGitHub 代码",
+  "main": "index.js",
+  "dependencies": {
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "jquery": "^3.4.1",
+    "less-loader": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.0.1",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.6",
+    "webpack": "^3.8.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack-dev-server": "^2.9.3"
+  },
+  "scripts": {
+    "dev2": "webpack-dev-server --open --port 200 --contentBase src --hot",
+    "dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfzz/GitHub-Create.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rfzz/GitHub-Create/issues"
+  },
+  "homepage": "https://github.com/rfzz/GitHub-Create#readme"
+}
